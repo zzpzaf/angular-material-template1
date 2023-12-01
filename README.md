@@ -10,7 +10,8 @@ Run `npm install` to install all dependencies.
 
 ## Code scaffolding
 
-Run `ng g c <component-name>` to generate a new component. This generates a non-standalone component (the component is added in the app.module). 
+Run `ng g c <component-name> --module=app.module` to generate a new component. This generates a non-standalone component (the component is added in the app.module).
+
 You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
